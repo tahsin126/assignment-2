@@ -1,0 +1,14 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .icon{
+    display: flex;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+    gap: 20px;
+}
