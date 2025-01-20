@@ -220,22 +220,45 @@ letter-spacing: 0%;
 text-align: center;
  }
 
+ /* story section style */
+ .stories{
+    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);;
+ }
+.story-container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    
+}
+.story1{
+    border-radius: 10px;
+
+background: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
 /* responsiveness */
 @media screen and (max-width:576px) {
-    
-
+    /* navbar styles */
+    body{
+        align-content: center;
+    }
+    .nav-menu{
+        display: none;
+    }
     /* banner section styles */
     .banner{
-        display: flex;
-        flex-direction: column;
-        margin: 10px auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-content: center;
     }
     .banner-title {
         text-align: center;
         
     }
     .banner-img{
-        padding: 40px;
+        width: 100%;
     }
     .banner-description{
         text-align: center;
@@ -250,9 +273,15 @@ text-align: center;
         margin: 20px auto;
         display: block;
     }
+
     .card-container{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .arrow{
+        display: none;
     }
     
 }
