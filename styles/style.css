@@ -1,4 +1,10 @@
-
+*{
+    font-family: sans-serif;
+}
+/* nav section styeles */
+header{
+    margin: 0 40px;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -11,4 +17,53 @@
 .nav-menu{
     display: flex;
     gap: 20px;
+}
+.navbar .title{
+    font-family: sans-serif;
+    color: rgb(17, 17, 17);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.navbar ul li {
+    
+    list-style: none;
+
+}
+.navbar ul li a, .txt{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+#li1{
+    font-family: sans-serif;
+    color: rgb(254, 163, 1);
+}
+#li2{
+    font-family: sans-serif;
+    color: rgb(1, 172, 253);
+}
+#li3{
+    font-family: sans-serif;
+    color: rgb(5, 212, 223);
+}
+#li4{
+    font-family: sans-serif;
+    color: rgb(93, 88, 239);
+}
+.navbar .nav-btn {
+    border-radius: 6px;
+    background: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+ padding-top: 8px;
 }
