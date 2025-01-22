@@ -1,8 +1,13 @@
 *{
     font-family: sans-serif;
 }
-body{
+body, html{
     background-image: url(../assets/bg.png);
+    
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    
 }
 /* nav section styeles */
 header{
@@ -230,11 +235,12 @@ marquee{
     width: 100%;
     overflow: hidden;
     box-sizing: border-box;
-    background-color: rgba(254, 161, 1, 0.638);
+    border-radius: 3px;
+    background-color: rgb(254, 161, 1);
     height: 40px;
     text-align: center;
     padding-top: 10px;
-    color: rgb(255, 248, 219);
+    color: rgb(255, 255, 255);
     font-weight: 600;
     text-shadow: 3px 3px 3px 3px rgb(119, 108, 74);
     box-shadow: 4px 4px 4px 4px rgb(119, 108, 74);
@@ -508,7 +514,7 @@ text-align: left;
 
 
 /* responsiveness */
-@media screen and (min-width:577px) and (max-width:1200px) {
+@media screen and (min-width:576px) and (max-width:1200px) {
     .menu-img{
         display: none;
     }
@@ -524,7 +530,7 @@ text-align: left;
     .navbar{
         display: flex;
         justify-content: space-between;
-        gap: 100%;
+        
     }
     .nav-menu{
         display: none;
@@ -581,6 +587,7 @@ text-align: left;
         display: none;
     }
     .stories{
+        
         width: 100%;
         background-image: url(../assets/bg.png);
         background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
@@ -600,5 +607,6 @@ text-align: left;
         grid-template-columns: repeat(1. 1fr);
         justify-content: start;
         padding: 20px;
+        width: 100%;
     }
 }
