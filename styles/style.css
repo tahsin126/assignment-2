@@ -226,7 +226,19 @@ line-height: 18px;
 letter-spacing: 0%;
 text-align: center;
  }
-
+marquee{
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: rgba(254, 161, 1, 0.638);
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(255, 248, 219);
+    font-weight: 600;
+    text-shadow: 3px 3px 3px 3px rgb(119, 108, 74);
+    box-shadow: 4px 4px 4px 4px rgb(119, 108, 74);
+}
  /* story section style */
  .stories{
     background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
@@ -351,7 +363,8 @@ padding-left: 20px;
     border-radius: 10px 10px 0 0 ;
 }
 .story2-btn{
-    
+    width: 100px;
+    height: 26px;
     border-radius: 45px;
     border: none;
 background: rgb(254, 13, 13);
@@ -366,7 +379,8 @@ text-transform: capitalize;
 
 }
 .story3-btn{
-    
+    width: 100px;
+    height: 26px;
     border: none;
     background: rgb(93, 88, 240);
     border-radius: 45px;
@@ -381,6 +395,8 @@ text-transform: capitalize;
 margin-left: 20px;
 }
 .story4-btn{
+    width: 100px;
+    height: 26px;
     border: none;
     background:rgb(254, 163, 1);
     border-radius: 45px;
@@ -395,6 +411,8 @@ text-transform: capitalize;
 margin-left: 20px;
 }
 .story5-btn{
+    width: 100px;
+    height: 26px;
   border: none;
   background: rgb(1, 172, 253);
     border-radius: 45px;
@@ -412,6 +430,7 @@ margin-left: 20px;
 .btn-container{
     position: relative;
     top: -25px;
+    
 }
 .view-btn{
     border: none;
@@ -492,6 +511,9 @@ text-align: left;
 @media screen and (min-width:577px) and (max-width:1200px) {
     .menu-img{
         display: none;
+    }
+    hr{
+        display: block;
     }
 }
 @media screen and (max-width:576px) {
