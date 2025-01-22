@@ -513,7 +513,7 @@ text-align: left;
         display: none;
     }
     hr{
-        display: block;
+        display: none;
     }
 }
 @media screen and (max-width:576px) {
@@ -524,7 +524,7 @@ text-align: left;
     .navbar{
         display: flex;
         justify-content: space-between;
-        margin: 0 0 ;
+        gap: 100%;
     }
     .nav-menu{
         display: none;
